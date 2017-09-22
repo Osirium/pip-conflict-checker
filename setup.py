@@ -32,11 +32,7 @@ setup(
     url='https://github.com/ambitioninc/pip-conflict-checker',
     license='MIT',
     install_requires=[
-        'pip>=1.4.1',
-        'nose>=1.3.0',
-        'mock>=1.0.1',
-        'flake8',
-        'coverage'
+        'pip>=1.4.1'
     ],
     packages=['pipconflictchecker'],
     entry_points={
